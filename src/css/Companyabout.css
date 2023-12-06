@@ -1,0 +1,95 @@
+.don{
+    display: flex;
+    margin: 80px 150px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hero{
+    display: flex;
+}
+.hero2 li{
+    line-height: 45px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+}
+.hero2 i{
+    color: #086AD7;
+    font-size: 18px;
+}
+.don1 p{
+    line-height: 30px;
+    font-weight: 600;
+    color: #696969;
+}
+.don1 h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+.don1 h5{
+    color: #086AD7;
+}
+.don1{
+    text-align: start;
+    width: 500px;
+}
+.hero2 ul{
+    list-style-type: none;
+}
+.blue{
+    margin-top: 50px;
+    width: 330px;
+    height: 330px;
+    background-color: #086AD7;
+    border-radius: 50%;
+    outline: 30px solid #dae9f9;
+    z-index: -1;
+    position: relative;
+    margin-left: 250px;
+}
+.hero1 img{
+    width: 250px;
+}
+.aboutimg2{
+    width: 250px;
+    margin-top: -470px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.aboutimg1{
+    width: 250px;
+    margin-top: -250px;
+    margin-left: 150px;
+    border-radius: 10px;
+
+}
+@media only screen and (min-width:320px) and (max-width:850px) 
+ {
+    .don{
+        margin: 50px 20px;
+    }
+
+    .hero1 img{
+        width: 170px;
+    }
+    .blue{
+        margin-left: 25px;
+        width: 320px;
+    height: 320px;
+    }
+    .aboutimg2{
+        width: 220px;
+        margin-top: -580px;
+        margin-left: 150px;
+    }
+    .aboutimg1{
+        width: 220px;
+        margin-top: -180px;
+        margin-left: -150px;
+    }
+    .hero2 ul li{
+        font-size: 15px;
+        margin-left: -20px;
+        line-height: 30px;
+    }
+ }

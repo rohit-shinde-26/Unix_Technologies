@@ -1,0 +1,66 @@
+.class_btn button{
+    width: 250px;
+    height: 55px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.class_btn button:hover{
+    background-color:#086AD7 ;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.class_contact,.Brochures{
+    text-align: start;
+    margin-top: 30px;
+}
+.class_contact input{
+    width: 250px;
+    background-color: #EFEFEF;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 10px;
+}
+.class_contact textarea{
+    width: 250px;
+    background-color: #EFEFEF;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    padding: 10px;
+}
+.class_btn2{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: #086AD7;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.class_btn2:hover{
+    background-color: black;
+    transition: all 0.4s ease-in-out;
+}
+.class_btn3{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border-radius: 5px;
+
+}
+.class_btn3:hover{
+    transition: all 0.4s ease-in-out;
+
+    background-color: #086AD7;
+}
+

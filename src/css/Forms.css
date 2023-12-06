@@ -1,0 +1,106 @@
+.form1{
+text-align: start;
+margin-top: 150px;
+}
+.form1 h1{
+    font-weight: 700;
+
+}
+.form1 p{
+    font-weight: 600;
+    color: #696969;
+    margin: 30px 0;
+
+}
+.form1 i{
+   background-color: #086AD7;
+   padding: 7px;
+   border-radius: 50%;
+   font-size: 14px;
+   color: white;
+}
+.form1 li{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #696969;
+}
+.form1 li:hover{
+    color: #086AD7;
+}
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.form2 input,textarea{
+    padding: 25px;
+    border-radius: 10px;
+    outline: white;
+    width: 450px;
+    background-color: #086ad7;
+    border: 1px solid white;
+}
+.bg2{
+    background-image: url('../assets/image/circle-bg-2.png');
+    background-size: cover;
+    padding: 50px ;
+}
+.form2 > form input::placeholder{
+    color: white !important;
+    font-weight: 600;
+}
+.form2 > form > textarea::placeholder{
+    color: white !important;
+    font-weight: 600;
+}
+.form2 > form input , textarea{
+    color: #fff;
+}
+
+.form2 {
+    background-color: #086ad7;
+    padding: 60px;
+    text-align: start;
+    border-radius: 10px;
+    color: white !important;
+}
+.form2 h1{
+    margin-bottom: 30px;
+}
+.but5 {
+    padding:15px 25px;
+    background-color: white;
+    font-weight: 600;
+    border: white;
+    width: 450px;
+
+}
+.but5:hover {
+    background-color: #000;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:850px) {
+
+    .form1{
+        margin-top: -30px;
+        }
+        .form2 input,textarea{
+            width: 300px;
+            padding: 20px 20px;
+
+        }
+
+        .form2{
+    padding:35px ;
+    margin-top: 20px;
+
+        }
+        .but5{
+            width: 300px;
+        }
+}

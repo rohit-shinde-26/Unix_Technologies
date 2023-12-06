@@ -1,0 +1,118 @@
+.foot1 img{
+    width: 250px;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px ;
+    flex-wrap: wrap;
+}
+.foot1 {
+    width: 289px;
+    font-weight: 700;
+    color: rgb(177, 177, 177);
+}
+.foot2 a{
+text-decoration: none;
+}
+.foot1 p{
+    text-align: start;
+
+line-height: 32px;
+color: #696969;
+margin: 25px 0;
+}
+.icon1{
+    text-align: start;
+
+    
+}
+.icon1 i{
+   color: #000;
+    margin: 8px;
+    background-color: #dae9f9;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(130, 129, 129);
+    border-radius: 100%;
+}
+.icon1 i:hover{
+    color: #fff;
+    background-color: #086AD7;
+    transition: all 0.4s ease-in-out;
+}
+.icon1 .fa-facebook-f{
+    padding: 10px 13px;
+}
+.icon1 .fa-youtube{
+    padding: 10px 9px;
+
+}
+.foot2 {
+    text-align: start; 
+    width: 270px;
+}
+.foot2 ul{
+list-style-type: none;
+
+}
+.foot2 h5{
+margin:0 30px 20px ;
+font-weight: 700;
+font-size: 25px;
+}
+.foot2 ul li{
+    line-height: 40px;
+    color: #696969;
+    font-weight: 700;
+    
+}
+.demo:hover .move{
+    /* padding-left: 10px; */
+    color: #086AD7;
+    margin-left: 8px;
+    transition: 0.4s;
+}
+.foot3{
+    margin-left:-150px ;
+}
+.demo1{
+    line-height: 30px !important;
+}
+.foot4 iframe{
+    width: 350px;
+    height: 250px;
+}
+.foot3 a{
+    text-decoration: none;
+    color: #696969;
+}
+.foot4 h5{
+    text-align: start;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+@media only screen and (min-width:320px) and (max-width:850px) 
+ {
+    .foot1 img{
+        margin-top: -40px;
+    }
+    .foot1 p{
+   width: 330px;
+text-align: center;
+margin-left: -20px;
+margin-top: 20px;
+}
+.icon1 {
+    /* margin-left: 20px; */
+    text-align: center;
+}
+.foot2{
+    margin-left: -80px;
+    width: 260px;
+}
+.foot2 h5{
+    margin: 20px 30px;
+}
+ }

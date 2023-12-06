@@ -1,0 +1,149 @@
+
+.add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+}
+.contact{
+    display: flex;
+
+
+}
+.contact1 i{
+    font-size: 25px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 100%;
+    color: #086AD7;
+    margin-right: 20px;
+}
+
+.email{
+    background-color: #f8f8f8;
+    padding: 40px;
+    width: 380px;
+    text-align: start;
+
+}
+.email:hover .contact1 i{
+    background-color: #086AD7;
+    color: white;
+}
+.email:hover {
+    background-color: black;
+    color: white;
+}
+.fa-location-dot {
+    padding: 18px 21px !important;
+}
+.email:hover.email p{
+    color: white;
+    font-weight: 500;
+}
+.email p{
+    color: #696969;
+    font-weight: 600;
+}
+.map iframe{
+    width: 80%;
+    height: 500px;
+}
+.form_contact p{
+    color: #086AD7;
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 18px;
+} 
+.form_contact h1{
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.form_contactus{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 130px 0;
+    justify-content: space-around;
+    text-align: start;
+}
+.form_contactus input{
+    width: 600px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #f8f8f8;
+}
+
+.form_contactus > div > input::placeholder{
+    color: #696969 !important;
+
+}
+.message1 textarea{
+    background-color: #f8f8f8;
+    width: 90%;
+    color: #000;
+    border-radius: 0;
+    /* margin-left: 20px; */
+
+}
+.message1{
+    text-align: start;
+    margin-left: 150px;
+ 
+}
+
+.submit_but button{
+    background-color: #086AD7;
+    color: #fff;
+    padding:16px 40px;
+    border: none;
+    outline: none;   
+    font-weight: 700;
+    margin-top: 20px;
+}
+.submit_but button:hover {
+  background-color: #000;
+    border: none;
+    outline: none;
+  color: #FFF;
+  transition: all 0.4s ease-in-out;
+
+}
+.email{
+    margin: 10px;
+}
+@media only screen and (min-width:320px) and (max-width:850px) 
+{
+    .img{
+        height: 200px;
+    }
+    .add{
+        margin: 100px 0 0 0;
+    }
+
+    .img h1{
+        font-size: 60px;
+        font-weight: 650;
+        padding: 50px 0px 0px;
+        text-align: center;
+       
+    }
+    .form_contactus input{
+        width: 350px;
+    }
+  
+    .map iframe{
+        width: 90%;
+        height: 250px;
+    }
+    .message1{
+        text-align: start;
+        margin-left: 20px;
+        width: 350px;
+    }
+    .message1 textarea{
+        background-color: #f8f8f8;
+        width: 350px;
+    
+    }
+}

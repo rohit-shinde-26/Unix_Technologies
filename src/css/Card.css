@@ -1,0 +1,140 @@
+.Card_container {
+  background: url(../assets/image/bg3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #211e3b;
+  position: relative;
+}
+.text h2{
+  font-size: 50px;
+  margin-top: -20px;
+}
+
+.text22 {
+  text-align: center;
+  padding: 60px;
+  color: white;
+  margin-bottom: -150px;
+}
+
+.text22 p {
+  font-weight: bold;
+}
+
+.text22 h2 {
+  font-weight: 700px;
+}
+
+.card14 {
+  background-color: white;
+  padding: 30px;
+  width: 420px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.card14 img {
+  color: white;
+  border-radius: 10px;
+  width: 350px;
+  height: 240px;
+  z-index: -1;
+}
+
+figcaption {
+  background-color: white;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.card2{
+  margin-top: 30px;
+
+}
+
+.card-1 {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 80px;
+  margin-top: 50px;
+}
+
+.hovertext {
+ 
+  visibility: hidden;
+  transform: translate(0,-270px);
+  position: absolute;
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 18px;
+  width: 420px;
+  height: 263px;
+  padding: 30px;
+  /* padding-top: 20px; */
+
+}
+
+.card2:hover .hovertext{
+  transform: translate(0,-300px);
+  visibility: visible;
+  cursor: pointer;
+  transition: all 0.8s !important;
+  background-color: white;
+  z-index: 999;
+}
+.butn_learn {
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #086ad7;
+}
+.butn_learn i {
+  font-size: 15px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 850px) {
+  .card14 {
+    margin-top: 0px;
+    padding: 20px;
+    width: 350px;
+    height: 380px;
+  }
+
+  .card14 img {
+    width: 310px;
+    height: 200px;
+  }
+
+
+ 
+  .hovertext { 
+    transform: translate(0,-270px);
+    position: absolute;
+    
+    width: 350px;
+    height: 250px;
+    /* padding-top: 20px; */
+  
+  }
+  
+  .card2:hover .hovertext{
+    transform: translate(0,-300px);
+  }
+  figcaption {
+    margin-top: 40px;
+  }
+
+  .text22 {
+    text-align: center;
+    padding: 20px 0px 30px;
+  }
+  .text22 h2{
+    font-size: 30px !important;
+    margin-top: 20px;
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,0 +1,77 @@
+.read1{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    text-align: start;
+    padding:80px 40px ;
+    background-color: #211e3b;
+
+    z-index: -1;
+    border-radius: 10px;
+    margin: 20px;
+}
+.read h1{
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.butt11{
+    margin-top: 30px;
+}
+.but11{
+    padding: 17px 40px;
+    color: white;
+    background-color: #086AD7;
+    border:1px solid #086AD7;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.but11:hover{
+    background-color: transparent;
+    border:1px solid white;
+
+}
+.but12{
+    padding: 17px 40px;
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.but12:hover{
+    background-color:  #086AD7;
+    border:1px solid #086AD7;
+    
+     transition: all 0.4s ease-in-out;
+}
+
+@media only screen and (min-width:320px) and (max-width:850px) {
+    .read1{
+        display: block;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0;
+    }
+    .read h1{
+        font-weight: 500;
+        letter-spacing: 0px;
+        font-size: 22px;
+    }
+    .but11{
+        margin-bottom: 20px;
+    padding: 12px 25px;
+
+    }
+    .but12{
+        margin-bottom: 20px;
+    padding: 12px 25px;
+
+    }
+    .butt11{
+text-align: center;
+display: flex;
+
+    }
+}
